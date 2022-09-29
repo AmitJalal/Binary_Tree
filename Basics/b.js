@@ -17,4 +17,14 @@ b.left = d;
 b.right = e;
 c.left = f;
 
+/* 
+               a
+             /  \
+           /     \
+          b       c
+        /   \      \
+       d     e      f 
+               
+*/
+
 console.log(a);
