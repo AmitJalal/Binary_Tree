@@ -19,10 +19,6 @@ b.left = d;
 b.right = e;
 c.left = f;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 8d14bf9b2237ddcd0308de4924f56f5a79276a56
 /* 
                a
              /  \
@@ -33,8 +29,4 @@ c.left = f;
                
 */
 
-<<<<<<< HEAD
 console.log(a);
-=======
-console.log(a);
->>>>>>> 8d14bf9b2237ddcd0308de4924f56f5a79276a56
