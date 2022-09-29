@@ -21,6 +21,8 @@ a.left = b; a.right = c; b.left = d; b.right = e; c.left = f;
 */
 
 const depthFirstSearch = (root) => {
+   if(root===null) return [];
+
     const dfs = [];
     const stack = [root];
 
@@ -37,6 +39,7 @@ const depthFirstSearch = (root) => {
 }
 
 console.log(depthFirstSearch(a));  // --> [ 'a', 'b', 'd', 'e', 'c', 'f' ]
+console.log(depthFirstSearch([ ]));  // [ undefined ]
 
 // console.log('root node---', '\n \n', a, '\n \n', '--------------------');
 
